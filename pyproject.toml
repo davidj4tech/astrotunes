@@ -24,8 +24,8 @@ mpd = ["python-mpd2>=3"]
 features = ["librosa>=0.10"]  # local audio-feature extraction (sources.features)
 
 [project.urls]
-Homepage = "https://github.com/davidj4tech/agent-media/tree/main/packages/astrotunes"
-Issues = "https://github.com/davidj4tech/agent-media/issues"
+Homepage = "https://github.com/davidj4tech/astrotunes"
+Issues = "https://github.com/davidj4tech/astrotunes/issues"
 
 [project.scripts]
 astrotunes = "astrotunes.cli:main"
