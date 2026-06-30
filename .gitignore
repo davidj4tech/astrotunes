@@ -1,0 +1,4 @@
+
+# Python build artifacts (pipx/editable install)
+/build/
+*.egg-info/
