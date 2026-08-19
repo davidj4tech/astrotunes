@@ -2,7 +2,7 @@
 
 Pick music that matches the moment: your transit chart, time of day,
 mood, what you're doing, and the weather. Hands the pick to a backend
-(`media-mcp` locally, Mopidy on p8ar, or just stdout).
+(`media-mcp` locally, Mopidy on p8a, or just stdout).
 
 ## Status
 
@@ -108,7 +108,7 @@ astrotunes recommend --queue media-mcp  # queue via local mpv-mcp HTTP
 | Backend     | Module                        | Notes                                |
 |-------------|-------------------------------|--------------------------------------|
 | `stdout`    | `astrotunes.backends.stdout`  | Default. Print tracks, you play them. |
-| `mpd`       | `astrotunes.backends.mpd`     | `mpc add yt:<url>` against p8ar's Mopidy. Requires `[mpd]` extra. |
+| `mpd`       | `astrotunes.backends.mpd`     | `mpc add yt:<url>` against p8a's Mopidy. Requires `[mpd]` extra. |
 | `media-mcp` | `astrotunes.backends.media_mcp` | POST to `/api/cmd` on the local media-mcp. |
 
 ## Install
